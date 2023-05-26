@@ -593,7 +593,7 @@ e.g.
 ```json
 {
   "_": "command",
-  "command": "npx --no-install graphile-worker --once"
+  "command": "cross-env DATABASE_URL=\"$GM_DBURL\" npx --no-install graphile-worker --once"
 }
 ```
 
